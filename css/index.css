@@ -1,3 +1,14 @@
-#div-container {
-    grid-template-columns: [nav-column] 40px [content-body] auto;
+body {
 }
+
+#div-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#div-left-nav{
+    background-color: blue;
+}
+.div-profile-summary{
+    padding: 50px;
+}
+
