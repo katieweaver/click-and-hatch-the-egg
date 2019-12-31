@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans';
+}
+
 #div-container {
     display: grid;
     grid-template-columns: 20% 80%;
+}
+#div-summary{
+    background-color:lightgray;
+    border: solid 4px;
+    border-radius: 39px 39px 39px 39px;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.4);
+    margin: 0 auto;
+    padding: 15px;
+}
+table {
+    margin: 10px;
+}
+#pokemon-name {
+    text-align: center;
+    font-weight: bold;
 }
